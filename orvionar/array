@@ -1,0 +1,4 @@
+
+ let names=["john","sara","vicky"];
+names.push("david");
+console.log("after push:",name);

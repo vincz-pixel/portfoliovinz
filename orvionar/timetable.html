@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Timetable</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .class-info {
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #e6e6e6;
+        }
+
+        .break {
+            background-color: #ffe6e6;
+            font-weight: bold;
+        }
+
+        /* Highlight only lab subjects */
+        .lab {
+            background-color: #d1f0ff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- College Email Heading -->
+    <h1>VIJAYA COLLEGE,JAYANAGAR 4th TBLOCK
+    </h1>
+
+    <!-- Class Info Left Corner -->
+    <p class="class-info"> 6TH SEM /BCA</p>
+
+    <h2 style="text-align:center;">College Timetable</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>8:30 - 9:30</th>
+                <th>9:30 - 10:30</th>
+                <th>10:30 - 11:00</th>
+                <th>11:00 - 12:00</th>
+                <th>12:00 - 1:00</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>-</td>
+                <td>Machine Learning</td>
+                <td rowspan=6>BREAK</td>
+                <td>Mobile Application</td>
+                <td>Electronic Content Design</td>
+            </tr>
+
+            <tr>
+                <td>Tuesday</td>
+                <td>-</td>
+                <td>Software Testing</td>
+        
+                <td class="lab">Machine Learning Lab</td>
+                <td class="lab">Machine Learning Lab</td>
+            </tr>
+
+            <tr>
+                <td>Wednesday</td>
+                <td>Machine Learning</td>
+                <td>Mobile Application</td>
+               
+                <td>Software Testing</td>
+                <td>Electronic Content Design</td>
+            </tr>
+
+            <tr>
+                <td>Thursday</td>
+                <td class="lab">Mobile Application Lab</td>
+                <td class="lab">Mobile Application Lab</td>
+                
+                <td>Machine Learning</td>
+                <td>Project Lab</td>
+            </tr>
+
+            <tr>
+                <td>Friday</td>
+                <td>Software Testing</td>
+                <td>Machine Learning</td>
+               
+                <td class="lab">Project Lab</td>
+                <td class="lab">Project Lab</td>
+            </tr>
+
+            <tr>
+                <td>Saturday</td>
+                <td>Electronic Content Design</td>
+                <td>Mobile Application</td>
+                
+                <td>Machine Learning</td>
+                <td>-</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+</body>
+</html>
